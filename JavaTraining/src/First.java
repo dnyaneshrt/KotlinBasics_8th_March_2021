@@ -25,7 +25,7 @@ public class First {
             System.out.println("infinity");
 
         }finally {
-            //finally block excutes whthere eception gets or not?
+            //finally block excutes whether eception gets or not?
             System.out.println("finally block");
         }
 
