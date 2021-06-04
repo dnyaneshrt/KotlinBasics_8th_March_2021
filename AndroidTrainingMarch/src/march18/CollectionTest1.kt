@@ -73,7 +73,7 @@ println("the list of the employyeees along with id's")
     println(employees.getValue(104))
 
     var mylist= mutableListOf<String>("tryth","jasdf","dfgfsg","zyytu")
-Collections.sort(mylist)
+    Collections.sort(mylist)
     println("employees after sorting")
     for(employee in mylist)
     {
