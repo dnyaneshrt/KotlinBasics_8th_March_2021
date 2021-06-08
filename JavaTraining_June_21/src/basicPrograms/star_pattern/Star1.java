@@ -4,13 +4,20 @@ public class Star1 {
 
     public static void main(String[] args) {
 
-       for(int i=0;i<10;i++)
-       {
-           for(int j=0;j<10;j++)
-           {
-               System.out.print("* ");
-           }
-           System.out.println("* ");
-       }
+        //nested for loop
+
+        int count = 0;
+        //outer for loop
+        for (int i = 1; i <= 5; i++) {
+
+            //inner for loop
+            for (int j = 1; j <= 5; j++) {
+                count++;
+                System.out.print("  *   " +j);
+
+            }
+            System.out.println("");
+        }
+
     }
 }
