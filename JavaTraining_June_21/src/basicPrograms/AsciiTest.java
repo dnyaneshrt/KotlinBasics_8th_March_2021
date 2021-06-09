@@ -7,7 +7,6 @@ public class AsciiTest {
         {
             char ch=(char)i;//integer to char typecasting
             System.out.println(i+"  "+ch);
-
         }
     }
 }
