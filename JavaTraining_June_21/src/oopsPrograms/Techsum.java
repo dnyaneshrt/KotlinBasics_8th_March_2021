@@ -24,5 +24,13 @@ public class Techsum {
         nikhil.roll = 102;
         nikhil.name = "nikhil";
         nikhil.displayStudentDeatils();
+
+
+        MethodTest obj = new MethodTest();
+        System.out.println("addtion of two numbers from techsum class " + obj.addNumbers(50, 100));
+
+        System.out.print("test:  " + new MethodTest().addNumbers(45, 45));
+
+        MethodTest.info();
     }
 }
