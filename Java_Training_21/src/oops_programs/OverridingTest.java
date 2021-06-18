@@ -1,4 +1,8 @@
 package oops_programs;
+
+
+import inheritance.SuperAtCons;
+
 //super is also used to call parent class instance methods
 //method signature must be same in case of overriding
 class OppoA3
@@ -24,11 +28,16 @@ class OppoA9 extends OppoA3
         super.camera();//super is also used to call parent class instance methods
     }
 }
-public class OverridingTest {
-    public static void main(String[] args) {
+public class OverridingTest extends SuperAtCons {
+    public static  void main(String[] args) {
         OppoA9 obj=new OppoA9();
         obj.camera();//
         obj.sound();
         obj.test();
+
+        System.out.println("\n\n");
+
+        OverridingTest ot=new OverridingTest();
+        System.out.println("protected variable"+ot.pass);
     }
 }
