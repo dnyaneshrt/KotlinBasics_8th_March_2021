@@ -2,6 +2,7 @@ package basic_programs
 
 fun main() {
     var count = 1
+    var char: String
     while (true) {
         println("${count++} please enter student details")
 
@@ -25,9 +26,9 @@ fun main() {
 
         while (true) {
             println("do you want to continue  y/n?")
-            var char = readLine()!!
+            char = readLine()!!//y Y n N
             if (char.equals("y") || char.equals("Y")) {
-            //
+                break
 
             } else if (char.equals("n") || char.equals("N")) {
                 break
@@ -36,7 +37,11 @@ fun main() {
                 continue
             }
         }
-        break
+        if (char.equals("y") || char.equals("Y")) {
+            continue
+        } else if (char.equals("n") || char.equals("N")) {
+            break
+        }
     }
     println("thanks")
 }
