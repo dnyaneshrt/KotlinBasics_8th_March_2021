@@ -43,7 +43,6 @@ open class Shape
         return 0.0
     }
 
-
 }
 
 class Circle(val radious:Double):Shape()
@@ -64,8 +63,6 @@ class Triangle(val base:Double,val height:Double):Shape()
         return "traingle"
     }
 }
-
-
 class Square(val sides:Double):Shape()
 {
     override fun area(): Double {
