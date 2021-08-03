@@ -18,8 +18,8 @@ fun main() {
     println(check_equality)
     println(test_string.toLowerCase())
     println(test_string.toUpperCase())
-    println(test_string.contains('8'))
-    println(test_string.contains('9'))
+    println(test_string.contains('8'))//true
+    println(test_string.contains('9'))//false
     println("last char from my string is =${test_string.get(test_string.length - 1)}")
 
     var rev = ""
