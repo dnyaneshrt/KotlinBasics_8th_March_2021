@@ -1,7 +1,6 @@
 package exception
 //throw is used to throw user defined or pre-defined exceptions
 
-
 fun main() {
     println("please enter the age")
     var age= readLine()!!.toInt()
@@ -14,6 +13,4 @@ fun main() {
     {
         println("user can vote")
     }
-
-
 }
